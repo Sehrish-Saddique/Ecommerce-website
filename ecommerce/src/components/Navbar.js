@@ -20,20 +20,20 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto mb-2 b-lg-0">
               <li className="nav-item">
-                <Link className="nav-link">Home</Link>
+                <Link className="nav-link" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="./product.html">Products</Link>
+                <Link className="nav-link" to="/Product">Products</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="./cart.html">Cart</Link>
+                <Link className="nav-link" to="/Cart">Cart</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="./contact.html">Contact us</Link>
+                <Link className="nav-link" to="/Contact">Contact us</Link>
               </li>
             </ul>
-            <Link className="nav-link" to="./registration.html"><button type="button" className="btn btn-outline-light">Register</button></Link>
-            <Link className="nav-link current " aria-current="page"  to="./login.html"><button type="button" className="btn btn-outline-light">Login</button></Link>
+            <Link className="nav-link" to="/Register"><button type="button" className="btn btn-outline-light">Register</button></Link>
+            <Link className="nav-link current " aria-current="page"  to="/Login"><button type="button" className="btn btn-outline-light">Login</button></Link>
 
           </div> 
         </div> 

@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from "react-router-dom"
+
 import signinpic  from "./image/3.png"
 const Login = () => {
     return (
@@ -43,8 +45,8 @@ const Login = () => {
                             <label className="form-label" for="form3Example4c">Password</label>
                           </div>
                         </div>
-                        <p className="small mb-5 pb-lg-2"><a className="text-muted" href="#!">Forgot password?</a></p>
-                        <p>Don't have an account? <a href="./registration.html" className="linnk-info">Register here</a></p>
+                        <p className="small mb-5 pb-lg-2"><Link className="text-muted" to="#!">Forgot password?</Link></p>
+                        <p>Don't have an account? <Link to="/Register" className="linnk-info">Register here</Link></p>
       
                        
       
