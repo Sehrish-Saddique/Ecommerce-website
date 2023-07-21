@@ -2,6 +2,7 @@ import React from 'react'
 import image1 from './image/1.png'
 import image2 from './image/2.png'
 import image3 from './image/3.png'
+import image4 from './image/4.png'
 const Herosection = ({ myData })=> {
  const {name} = myData;
   return (
@@ -128,7 +129,7 @@ const Herosection = ({ myData })=> {
         <div class="col">
           <div class="card">
             <center>
-              <img src="./image/4.png" class="card-img-top  img-fluid" alt="..."/>
+              <img src={image4} class="card-img-top  img-fluid" alt="..."/>
               <div class="card-body">
               <h5 class="card-title">Herbal Medicine</h5>
               <div class="stars">⭐⭐⭐⭐⭐</div>

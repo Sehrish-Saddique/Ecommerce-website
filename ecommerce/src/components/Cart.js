@@ -2,6 +2,7 @@ import React from 'react'
 import{
     Link
   }from "react-router-dom"
+  import image2 from "./image/2.png"
 export default function Cart() {
   return (
     <div>
@@ -98,7 +99,7 @@ export default function Cart() {
                         <div className="d-flex flex-row align-items-center">
                           <div>
                             <img
-                              src="./image/2.png"
+                              src={image2}
                               className="img-fluid rounded-3" alt="Shopping item" style={{ width: '65px' }} />
                           </div>
                           <div className="ms-3">
@@ -168,7 +169,7 @@ export default function Cart() {
                     <div className="card-body">
                       <div className="d-flex justify-content-between align-items-center mb-4">
                         <h4 className="mb-0">Card details</h4>
-                        <img src="./image/favicon.png"
+                        <img src={image2}
                           className="img-fluid rounded-1" style={{height:45}}   alt="Avatar"/>
                       </div>
   

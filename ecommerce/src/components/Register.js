@@ -1,5 +1,5 @@
 import React from 'react'
-
+import image3 from './image/3.png'
 export default function Register() {
   return (
     <div>
@@ -65,7 +65,7 @@ export default function Register() {
 
                     <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                       <img
-                        src="./image/3.png"
+                        src={image3}
                         className="img-fluid"
                         alt="Reg image"
                       />
